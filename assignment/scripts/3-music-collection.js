@@ -23,6 +23,17 @@ console.log(addtoCollection('American Idiot', 'Green Day', '2004'));
 
 console.log(collection);
 
+// adding showCollection function.
+function showCollection (array){
+   console.log(array.length);
+   for (let i=0; i<array.length; i++){
+   console.log(collection[i].title,'by', collection[i].artist, 'published in the year', collection[i].yearPublished );}
+
+
+}
+// testing ShowCollection function/
+showCollection(collection);
+
 
 
 
