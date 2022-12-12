@@ -46,10 +46,10 @@ function findByArtist(artist) {
   let emptyarray = [];
   for (let i = 0; i < collection.length; i++) {
     if (collection[i].artist === artist) {
-      return artist;
+      emptyarray.push(collection[i]);
     }
   }
-  return false;
+  return emptyarray;
 }
 //testing findbyartist function.
 console.log(findByArtist("Kanye West"));
