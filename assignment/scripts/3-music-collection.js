@@ -56,4 +56,4 @@ console.log(findByArtist("Kanye West"));
 console.log(findByArtist("My Chemical Romance"));
 console.log(findByArtist("xxxtentacion"));
 console.log(findByArtist("Green Day"));
-console.log(findByArtist("Justin Bieber"));
+console.log(findByArtist("Justin Bieber"));  
